@@ -1,0 +1,1420 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 100%;
+    min-height: 100vh;
+   
+}
+.input-box button:hover{
+    background-color: rgb(235, 203, 23);
+
+}
+body{
+    background-color:white;
+    
+}
+
+.quality4{
+    background-color: palegreen;
+   
+    text-align: center;
+    padding: 10px;
+   
+   }
+   .quality4 h1,p{
+    padding: 10px;
+   }
+   .quak{
+    text-align: center;
+    background-color: antiquewhite;
+    
+   }
+   .qual{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   }
+   .qimcont img{
+    width: 500px;
+    height: 350px;
+   }
+   .qimcont{
+    background-color: teal;
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    
+    
+   
+   }
+   .qimcont p{
+    text-align: start;
+    background-color: grey;
+    align-items: center;
+    margin: 4px;
+   }
+   .qimcont i{
+    padding-top: 2px;
+    margin: 8px;
+    align-items: center;
+    background-color: green;
+   }
+   .qimcont h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .quality5{
+    position: relative;
+    height: 85vh;
+    background: url(imgs/helth.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 0px 0px;
+   }
+   header{
+    position: fixed;
+    width: 99.5%;
+   }
+   .menu-icon{
+    margin: 0px 5px;
+   }
+   .quality6{
+    height: 85vh;
+   }
+   .contactmaj{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 141, 57);
+    height: 75vh;
+    
+   }
+   .contcontents{
+    background-color: bisque;
+    padding: 20px;
+    margin: 15px;
+    
+   }
+   .conticon{
+    margin: 5px 10px;
+    display: flex;
+  
+    padding: 10px;
+    align-items: center;
+   }
+   .cicon{
+    
+     background-color: red;
+     margin: 10px;
+     align-content: center;
+     padding: 15px;
+     border-radius: 50%;
+   }
+   .cicon i{
+    font-size: 30px;
+    
+   }
+   .cion2{
+    text-transform: capitalize;
+    margin: 10px;
+    align-content: center;
+    padding: 10px;
+   }
+   .contcontents2{
+    background-color: violet;
+   }
+   .contcontents2 input{
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(106, 101, 101);
+   }
+   .contcontents2 input::placeholder{
+    color: rgb(68, 66, 66);
+   }
+   .msgtous button{
+    background-color: teal;
+    border: 0;
+    font-weight: bold;
+   }
+   .msgtous button:hover{
+    background-color: rgba(8, 134, 134, 0.673);
+   }
+   
+   
+@media (min-width:200px){
+    header{
+       
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: yellow;
+        font-weight: bolder;
+    }
+    .menu-icon i{
+        font-size: 30px;
+    }
+    nav{
+        display: flex;
+    }
+   nav ul{
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: #004274;
+    gap: 0;
+    color: white;
+    overflow: hidden;
+    transition: 0.4s ease-in;
+    
+
+   }
+   nav ul li{
+    padding: 20px;
+   }
+   nav ul li a{
+    color: white;
+    text-decoration: none;
+   }
+   nav a:hover{
+    text-decoration: underline;
+   }
+   .menu-icon{
+    display: block;
+   }
+    .maincont{
+       
+        text-align: center;
+        background: url(imgs/newback1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        text-transform: capitalize;
+        height: 90vh;
+        color: white;
+    }
+    .inputs h3,p{
+        padding: 5px;
+    }
+    .input-box{
+        margin: 10px auto;
+        background: rgba(0, 0, 0, 0.418);
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    }
+    .input-box input{
+        width: 75%;
+        padding: 15px;
+        margin: 10px auto;
+        border-radius: 5px;
+        border: 0;
+    }
+    .input-box button{
+        margin: 12px auto;
+        background-color: gold;
+        padding: 10px;
+        border-radius: 20px;
+        width: 80%;
+        border: 0;
+    }
+    .quality1{
+        background-color: rgb(200, 234, 200);
+        text-align: center;
+        
+    }
+    .fim{
+        padding: 15px;
+    }
+    .fim h3,p{
+        padding: 6px;
+        text-transform: capitalize;
+    }
+    .fim img{
+        width: 200px;
+    }
+    .fim img:hover{
+        border: 1px solid white;
+    }
+    .quality2{
+        text-align: center;
+        text-transform: capitalize;
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        padding: 10px;
+        
+    }
+    .menuheadd h1,h4{
+        padding: 6px;
+    }
+    .menus{
+        margin: 10px auto;
+        text-align: center;
+        border: 1px solid black;
+        height: 80vh;
+        background-color: wheat
+    }
+    .menuimgs{
+        text-align: center;
+    }
+    .menuimgs p{
+        text-align: center;
+        height: 33px;
+        margin: 10px auto;
+           
+    }
+    .menuimgs img{
+       width: 100%;
+       height: 45vh;
+    }
+   
+    .arrow i{
+        font-size: 25px;
+        padding: 5px;
+       
+    }
+    .arrow{
+        margin: 26px auto;
+
+    }
+    .arrow i:hover{
+        background-color: white;
+    }
+
+    .menubtn{
+        margin: 0px auto;
+    }
+    .menubtn button{
+        padding: 10px;
+        width: 100px;
+        margin: 10px auto;
+        background-color: green;
+        border: 0;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 26px;
+
+    }
+    .menubtn button:hover{
+        background-color: rgb(10, 88, 10);
+    }
+    .quality3{
+        text-align: center;
+        margin: 10px auto;
+        padding: 5px;
+       
+    } 
+    .gift1 img{
+        width: 100%;
+
+    }
+    .gift2 img{
+        width: 100%;
+
+    }
+    .menu-icon{
+        display: block;
+    }
+    .giftcont{
+        padding: 10px;
+        text-transform: capitalize;
+    }
+    .giftcont button{
+        padding: 5px;
+        margin: 5px auto;
+        background-color: crimson;
+        border: 0;
+        color: white;
+        width: 100px;
+        border-radius: 10px;
+    }
+    .giftcont button:hover{
+        background-color: rgb(164, 13, 43);
+    }
+    .quality4{
+        background-color: white;
+       
+        text-align: center;
+        padding: 5px;
+       
+       }
+
+
+       .q2cont p{
+        display: none;
+       }
+       .quality4 h1,p{
+        padding: 10px;
+       }
+       
+       .quak{
+        text-align: center;
+        background-color: antiquewhite;
+        
+       }
+       .qual{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+       }
+       .qimcont img{
+        width: 90%;
+        height: 350px;
+        
+       }
+       .qimcont{
+        background-color: teal;
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+        
+       }
+       .qimcont p{
+        text-align: start;
+        background-color: grey;
+        margin: 4px 0px;
+        
+       }
+       .qimcont i{
+        
+        margin: 6px;
+        align-items: center;
+        background-color: green;
+       }
+       .qimcont h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       
+       .qual2{
+        background-color: #004274;
+      
+
+      
+
+       }
+    
+       .q2cont{
+        
+        background-color: rgba(65, 131, 63, 0.659);
+        position: relative;
+        padding: 0px;
+        
+       }
+    
+      
+       .q2cont h1{
+        margin: 20px 0px 0px 0px;
+       }
+       .q2cont p{
+        word-spacing: 5px;
+        line-height: 25px;
+       }
+       .q2cont button{
+        width: 150px;
+        margin: 10px;
+        padding: 8px;
+        border: 0;
+        border-radius: 15px;
+        
+       }
+       .q2cont button:hover{
+        background-color: rgb(204, 191, 191);
+       }
+       .q2ps{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        padding: 10px;
+        align-items: center;
+        background-color: white
+        
+       }
+     
+       .q2ps ul{
+        list-style: none;
+        
+       }
+       .q2i ul{
+        height: 290px;
+        margin: 0;
+       }
+       .q2i li i{
+        background-color: green;
+        margin: 4px;
+        padding: 0px;
+       }
+       .q2hs ul{
+        height: 290px;
+        padding: 0px;
+       }
+       .q2hs li{
+        margin: 9px 0px;
+        background-color: green;
+        padding: 0px;
+        align-items: center;
+        font-size: 20px;
+       }
+       .q2ils img{
+        display: none;
+       }
+       .q2ils{
+      display: none;
+       }
+       .quality5{
+        position: relative;
+        height: 100vh;
+        background: url(imgs/helth.jpeg);
+        background-position: center;
+        background-size: cover;
+        margin: 0px 2px;
+       }
+       .qualicont{
+        width: 90%;
+        height: 390px;
+        padding: 10px;
+        position: absolute;
+        top: 20%;
+        margin: 0px 5px;
+        background-color: rgba(35, 34, 34, 0.605);
+        color: wheat;
+        
+       }
+       .qualicont h1{
+        margin: 3px;
+        font-size: 26px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+       }
+       .qualicont h1{
+        font-size: 22px;
+        text-transform: capitalize;
+       }
+       .qualicont p{
+        font-size: 23px;
+        padding: 10px;
+        line-height: 27px;
+        letter-spacing: 2px;
+        
+        text-transform: capitalize;
+       }
+       .qualicont button{
+        padding: 10px;
+        text-align: center;
+        width: 150px;
+        margin: 10px 20px;
+        border: 0;
+        border-radius: 20px;
+        background-color: yellow;
+        font-size: 22px;
+       }
+       .qualicont button:hover{
+        background-color: goldenrod;
+       }
+    .feedbacks{
+        background-color: rgb(213, 196, 196);
+        padding: 10px;
+    }
+    .cust h1{
+        text-shadow: 2px 2px 3px black;
+        color: rgb(239, 160, 13);
+        padding: 8px;
+    }
+    .mycustfeeds{
+        background-color: rgb(117, 105, 103);
+        padding: 10px;
+        
+       
+       
+    }
+    .myfeeds{
+        margin: 10px auto;
+        padding: 10px;
+        background-color: wheat;
+    }
+    .contactus h1{
+        padding: 10px;
+        text-align: center;
+    }
+    .contactus p{
+        display: none;
+
+    }
+    .contactmaj{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    
+       }
+       .contcontents{
+        background-color: bisque;
+        padding: 1px;
+        margin: 2px;
+        
+       }
+       .conticon{
+       
+        display: flex;
+        padding: 0px;
+       
+       }
+       .cicon{
+        
+         background-color: lightblue;
+         margin: 1px;
+         padding: 0px;
+         border-radius: 50%;
+       }
+       .cicon i{
+        font-size: 20px;
+        padding: 5px;
+        
+       }
+       .cion2{
+        text-transform: capitalize;
+        margin: 1px;
+        padding: 5px;
+        font-size: 14px;
+       }
+       .contcontents2{
+        background-color: burlywood;
+        padding: 6px;
+        text-align: center;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       }
+       .contcontents2 h3{
+        text-align: center;
+        text-transform: capitalize;
+        padding: 6px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       .contcontents2 input{
+        padding: 8px;
+        margin: 10px 5px;
+        width: 90%;
+        
+       }
+       .msgtous button{
+        padding: 8px;
+        border-radius: 10px;
+        width: 200px;
+        
+       }
+      
+       
+}
+@media(min-width:500px){
+    .quality6{
+        height: 80vh;
+       }
+       .contactus{
+        padding: 10px;
+       }
+       .contactmaj{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(22, 141, 57);
+        height: 60vh;
+        margin: 10px 0px;
+        
+        
+       }
+       .contcontents{
+        background-color: rgb(235, 138, 20);
+        padding: 0px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+       }
+       .conticon{
+        margin: 0;
+        display: flex;
+        padding: 0px;
+        align-items: center;
+       }
+       .cicon{
+        
+         background-color: red;
+         margin: 5px;
+         align-content: center;
+         padding: 4px;
+         border-radius: 50%;
+       }
+       .cicon i{
+        font-size: 15px;
+        
+       }
+       .cion2{
+        text-transform: capitalize;
+        margin: 5px;
+        align-content: center;
+        padding: 5px;
+       }
+      
+       .contcontents2{
+        background-color: burlywood;
+        padding: 6px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 25px 5px;
+        
+        
+       }
+       .contcontents2 h3{
+        text-align: center;
+        text-transform: capitalize;
+        padding: 6px;
+        margin: 8px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       .contcontents2 input{
+        padding: 8px;
+        margin: 10px 5px;
+        width: 90%;
+        
+       }
+      
+    
+}
+
+@media (min-width:630px){
+   
+    header{
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    
+    .maincont{
+        height: 80vh;
+        background-color: rgb(53, 209, 50);
+        background: url(imgs/newback1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    .inputs {
+        padding: 0px;
+        text-transform: capitalize;
+        color: wheat;
+        font-weight: bold;
+    }
+    .input-box{
+        
+        margin: 5px;
+        padding: 10px;
+        height: 350px;
+        
+
+    }
+    .input-box input{
+        margin: 15px auto;
+        padding: 12px;
+        width: 50%;
+        outline: none;
+        text-align: center;
+        border-radius: 5px;
+        border: 0px;
+        
+    }
+    .input-box button{
+        margin: 15px auto;
+        padding: 10px;
+        width: 200px;
+        border-radius: 25px;
+        border: 1px solid black;
+
+    }
+    .quality1{
+        display: flex;
+        width: 100%;
+        
+    }
+    .fim img{
+       
+        margin: 0px;
+        padding: 0px;
+        height: 300px;
+        width: 100%;
+        
+        
+    }
+    .fim{
+        width: 50%;
+        margin: 65px 15px;
+       
+      
+    }
+    .fim h3,p{
+        text-transform: capitalize;
+        padding: 5px;
+    
+    }
+    .input-box input{
+        margin: 13px auto;
+    
+       }
+    .quality2{
+        height: 125vh;
+        text-align: center;
+    }
+    .menuheadd h1,h4{
+        padding: 10px;
+        background-color: white;
+        text-transform: capitalize;
+    }
+    .menuimgs img{
+        width: 70%;
+        height: 450px;
+        border: 5px solid black;
+        border-radius: 5px;
+
+    }
+    .menuimgs{
+        padding: 3px;
+    }
+    .menuimgs p{
+        padding: 10px;
+    }
+    .menus{
+        border: none;
+        background-color: white;
+    }
+    .arrow{
+        margin: 2px;
+        padding: 7px;
+    }
+    .arrow i{
+        font-size: 38px;
+        margin: 5px;
+    }
+    .arrow i:hover{
+        background-color: green;
+    }
+    .menubtn{
+        margin: 02px auto;
+        
+    }
+    .menubtn button{
+        padding: 10px;
+        width: 600px;
+        background-color: green;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .menubtn button:hover{
+        background-color: rgb(63, 191, 63);
+    }
+    .gifts{
+        display: flex;
+        justify-content: space-around;
+        border: none;
+
+    }
+    .quality3{
+        border: 1px solid black;
+        padding: 5px;
+       
+       
+        
+    }
+    .quality3 h2{
+        padding: 10px;
+        
+    }
+    .gifts{
+        margin: 15px auto;
+    }
+    .gift1{
+        margin: 5px;
+    }
+    .gift2{
+        margin: 5px;
+    }
+    .gift1 img{
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+    .gift2 img{
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+    .giftcont{
+        padding: 10px;
+       
+    }
+    .giftcont p{
+        padding: 7px;
+    }
+    .giftcont button{
+        padding: 10px;
+        width: 500px;
+        margin: 20px auto;
+        
+        background-size: cover;
+        font-size: 30px;
+       
+    }
+    .quality4{       
+        text-align: center;
+        padding: 5px;
+        background-color: lightcyan;
+       
+       }
+       .quality4 h1,p{
+        padding: 10px;
+       }
+       
+       .quak{
+        text-align: center;
+        background-color: antiquewhite;
+        
+       }
+       .qual{
+        display: block;
+        text-align: center;
+        justify-content: center;
+       }
+       .qimcont img{
+        width: 90%;
+        height: 350px;
+        
+       }
+       .gift1 img{
+        height: 200px;
+      }
+      .gift2 img{
+        height: 200px;
+      }
+       .qimcont{
+        background-color: rgb(211, 225, 225);
+        width: 95%;
+        margin: 15px auto;
+        padding: 10px;
+        border-radius: 20px;
+        
+       }
+       .qimcont p{
+        text-align: start;
+        background-color: grey;
+        margin: 4px 0px;
+        
+       }
+       .qimcont i{
+        
+        margin: 8px;
+        align-items: center;
+        background-color: green;
+       }
+       .qimcont h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       .qual2{
+        background-color: #c8dceb;
+        text-align: center;
+        display: flex;
+        height: 70vh;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5px 0px;
+        padding: 10px;
+    
+       }
+    
+       .q2cont{
+        width: 350px;
+        background-color: orange;
+        height: 300px;
+        align-items: center;
+        display: none;
+       
+       }
+       .q2cont h1,p{
+        padding: 10px;
+        
+       }
+       .q2cont h1{
+        margin: 20px 0px 0px 0px;
+       }
+       .q2cont p{
+        word-spacing: 5px;
+        line-height: 25px;
+       }
+       .q2cont button{
+        width: 220px;
+        margin: 20px;
+        padding: 12px;
+        border: 0;
+        border-radius: 15px;
+        font-size: 20px;
+       }
+       .q2cont button:hover{
+        background-color: rgb(204, 191, 191);
+       }
+       .q2ps{
+        display: flex;
+        width: 300px;
+        height: 300px;
+        padding: 5px;
+        align-items: center;
+        
+       }
+     
+       .q2ps ul{
+        list-style: none;
+        
+       }
+       .q2i ul{
+        height: 290px;
+        margin: 0;
+       }
+       .q2i li i{
+        background-color: green;
+        margin: 4px;
+        padding: 0px;
+       }
+       .q2hs ul{
+        height: 290px;
+        padding: 0px;
+       }
+       .q2hs li{
+        margin: 9px 0px;
+        background-color: green;
+        padding: 0px;
+        align-items: center;
+        font-size: 20px;
+       }
+       .q2ils img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        
+       }
+       .q2ils{
+        background-color: black;
+        width: 500px;
+        height: 450px;
+        display: block;
+        margin: 20px;
+       }
+      
+       .quality5{
+        position: relative;
+        background-color: rgb(47, 149, 197);
+        background-position: center;
+        background-size: cover;
+        background: url(imgs/helth.jpeg);
+        margin: 0px 0px;
+        height: 85vh;
+        
+       }
+       .qualicont{
+        position: absolute;
+        top: 7%;
+        width: 300px;
+        justify-content: center;
+        background-color: rgba(35, 34, 34, 0.605);
+        color: wheat;
+        
+       }
+       .qualicont h1,p,button{
+        margin: 10px;
+       }
+       .qualicont h1{
+        font-size: 32px;
+        text-transform: capitalize;
+       }
+       .qualicont p{
+        font-size: 27px;
+        text-transform: capitalize;
+       }
+       .qualicont button{
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+        margin: 0px 20px;
+        border: 0;
+        border-radius: 20px;
+        background-color: yellow;
+        font-size: 22px;
+       }
+       .qualicont button:hover{
+        background-color: goldenrod;
+       }
+       .mycustfeeds{
+        display: flex;
+        margin: 20px auto;
+       }
+       .myfeeds{
+        margin: 5px;
+        font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       .cust{
+        text-align: center;
+       }
+       .cust h1{
+        padding: 12px;
+       }
+       .myfeeds p{
+        line-height: 27px;
+       }
+       
+      
+    } 
+    
+    
+    
+
+ 
+@media (min-width:800px){
+  
+    .menu-icon{
+        display: block;
+    }
+    .pages2{
+        display: block;
+        
+    }
+    nav{
+        display: block;
+    }
+    nav ul li {
+        
+        display: block;
+        justify-content: space-around;
+
+    }
+    .pages2 li a{
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .pages2 li a:hover{
+        text-decoration: underline;
+    }
+    .arrow{
+        margin: 0;
+       
+        padding: 0;
+    }
+    .quality2{
+        background-color: rgb(143, 183, 189);
+        height: 125vh;
+    }
+     
+   .quality1{
+    height: 90vh;
+   }
+   .input-box input{
+    margin: 13px auto;
+
+   }
+   .quality4{
+    background-color: rgb(143, 183, 189);
+    border: 3px solid white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+   
+   }
+   .quality4 h1,p{
+    padding: 10px;
+   }
+   .quak{
+    text-align: center;
+    background-color: rgb(143, 183, 189);
+    
+   }
+   .qual{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+   }
+   .qimcont img{
+    width: 95%;
+    height: 350px;
+   }
+   .qimcont{
+    background-color: rgb(143, 183, 189);
+
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    
+    
+   
+   }
+   .qimcont p{
+    text-align: start;
+    background-color: grey;
+    align-items: center;
+    margin: 4px;
+   }
+   .qimcont i{
+    padding-top: 2px;
+    margin: 8px;
+    align-items: center;
+    background-color: green;
+   }
+   .qimcont h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .qual2{
+    background-color: rgb(143, 183, 189);
+
+    text-align: center;
+    display: flex;
+    height: 75vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px;
+    
+
+   }
+
+   .q2cont{
+    width: 300px;
+    background-color: white;
+    height: 270px;
+    align-items: center;
+    display: block;
+    margin: 0px 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+   }
+   .q2cont h1,p{
+    padding: 5px;
+    margin: 5px;
+    
+   }
+   .q2cont h1{
+    background-color: #b8c4ce;
+    height: 60px;
+    align-content: center;
+   }
+   
+   .q2cont p{
+    color: blue;
+    display: block;
+    height: 120px;
+    align-content: center;
+    list-style: 20px;
+   }
+   .q2cont button{
+    background-color: #b8c4ce;
+    width: 90%;
+    margin: auto;
+    padding: 8px;
+    border: 0;
+    border-radius: 15px;
+    
+   }
+   .q2cont button:hover{
+    background-color: #79787852;
+   }
+   .q2ps{
+    display: flex;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid white;
+    
+   }
+ 
+   .q2ps ul{
+    list-style: none;
+    
+   }
+   .q2i ul{
+    height: 290px;
+    margin: 0;
+   }
+   .q2i li i{
+    background-color: green;
+    margin: 4px;
+    padding: 0px;
+   }
+   .q2hs ul{
+    height: 290px;
+    padding: 0px;
+   }
+   .q2hs li{
+    margin: 9px 0px;
+    background-color: green;
+    padding: 0px;
+    align-items: center;
+    font-size: 20px;
+   }
+   .q2ils img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    
+   }
+   .q2ils{
+    background-color: black;
+    width: 350px;
+    height: 400px;
+    display: block;
+   }
+   .quality5{
+    position: relative;
+    margin: 15px 0px 0px 0px;
+    height: 80vh;
+    background: url(imgs/helth.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+   }
+   .qualicont{
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 6%;
+    background-color: rgba(35, 34, 34, 0.605);
+    color: wheat;
+    
+   }
+   .qualicont h1,p,button{
+    margin: 10px;
+   }
+   .qualicont h1{
+    font-size: 32px;
+    text-transform: capitalize;
+   }
+   .qualicont p{
+    font-size: 27px;
+    text-transform: capitalize;
+   }
+   .qualicont button{
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 0px 20px;
+    border: 0;
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 22px;
+   }
+   .qualicont button:hover{
+    background-color: goldenrod;
+   }
+   .quality6{
+    height: 85vh;
+   }
+   .contactmaj{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(199, 219, 205);
+    height: 75vh;
+    
+    
+   }
+   .contcontents{
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    
+   }
+   .conticon{
+    margin: 5px 10px;
+    display: flex;
+  
+    padding: 10px;
+    align-items: center;
+   }
+   .cicon{
+    
+     background-color: lightblue;
+     margin: 10px;
+     align-content: center;
+     padding: 15px;
+     border-radius: 50%;
+   }
+   .cicon i{
+    font-size: 30px;
+    
+   }
+   .cion2{
+    text-transform: capitalize;
+    margin: 10px;
+    align-content: center;
+    padding: 10px;
+   }
+   .contcontents2{
+    background-color: burlywood;
+    padding: 6px;
+    height: 60vh;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 25px 18px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+        box-shadow: 2px 2px 3px black;
+
+   }
+  
+   .contcontents2 h3{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 6px;
+    margin: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .contcontents2 input{
+    padding: 13px;
+    margin: 10px 5px;
+    width: 70%;
+    color:black;
+
+    
+   }
+   .contcontents2 button{
+    padding: 15px;
+    border-radius: 10px;
+
+   }
+  .gift1 img{
+    height: 200px;
+    
+  }
+  .gift2 img{
+    height: 200px;
+   
+  }
+  
+} 

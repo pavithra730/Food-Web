@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="headcont">
+                <h2>Flavorsome</h2>
+            </div>
+            <nav>
+                <div class="menu-icon">
+                    <i class="material-icons" onclick="toogle()" id="menu">menu</i>
+                </div>
+                <div class="pages">
+                    <ul id="pages2">
+                        <li><a href="#register" onclick="reg()">Register</a></li>
+                        <li><a href="#menus" onclick="menus()">Menu</a></li>
+                        <li><a href="#aboutus" onclick="abt()">About us</a></li>
+                        <li><a href="#contact" onclick="cnct()">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+          
+        </header>
+
+        <main>
+            <div class="maincont">
+                <div class="inputs" id="register">
+                    <h3>get $90 off</h3>
+                    <p>get $90 off across your first 4 deleveries +1 free gift. Includes free shipping when you order today!</p>
+                    <br>
+                    <div class="input-box">
+                       <div><input type="text" placeholder="Promotion Code"></div>
+                       <div><input type="text" placeholder="First name"></div>
+                       <div><input type="text" placeholder="Last name"></div>
+                       <div><input type="text" placeholder="Zip code"></div>
+                       <div><input type="email" placeholder="Email address"></div>
+                       <button class="btn">Continue</button>
+                    </div>
+                </div>   
+            </div>
+        </main>
+        <section>
+            <div class="quality1">
+                <div class="fim">
+                    <img src="imgs/fruitjuice.jpg">
+                    <h3>The Best Quality</h3>
+                    <p>enjoy organic fresh produce and clean ingredients. proud certified organic handler</p>
+                </div>
+            
+                <div class="fim">
+                    <img src="imgs/OIP.jpeg">
+                    <h3>Easy & convenient</h3>
+                    <p>quick meal kits and  premade meals, delivered to your door.</p>
+                </div>
+                <div class="fim">
+                    <img src="imgs/Longevity-noodles-6.jpg">
+                    <h3>meal planning</h3>
+                    <p>put meal prepping on autopilot to eat well all week.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quality2">
+                <div class="menuheadd">
+                    <h1>on the menu this week</h1>
+                    <h4>meals starting at $9.99 per serving</h4>
+                </div>
+                <div class="menus"id="menus">
+                    <div class="menuimgs">
+                        <img src="imgs/m1.webp" alt="">
+                        <p>Southwestern steaks with roasted peppers and New Mexican chile salsa
+                        </p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m2.webp" alt="">
+                        <p>Two-bean enchiladas with green chiles and fried eggs</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m3.webp" alt="">
+                        <p>Udon noodle salad with gingered tofu and pickled vegetables</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m4.webp" alt="">
+                        <p>Broccoli and fresh mozzarella panini with honey-glazed carrots</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m5.webp" alt="">
+                        <p>Chicken tagine with currants, spinach, and artichokes</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m6.webp" alt="">
+                        <p>Seared beets with quinoa tabbouleh salad and sumac-pickled onion</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m7.webp" alt="">
+                        <p>Spanish pisto con huevos with tomatoes, eggplant, and garlic bread</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m8.webp" alt="">
+                        <p>Pork chops with Italian fig agrodolce sauce and caraway cabbage</p>   
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m9.webp" alt="">
+                        <p>Korean spicy shrimp stir-fry and pickled daikon</p>
+                    </div>
+                    <div class="menuimgs">
+                        <img src="imgs/m10.webp" alt="">
+                        <p>Salmon with horseradish-mustard crust and squash salad</p>
+                    </div>
+
+                    <div class="arrow">
+                        <i class="material-icons" onclick="next(-1)" class="backward">arrow_back</i>
+                        <i class="material-icons" onclick="next(1)" class="forward">arrow_forward</i>
+                    </div>
+                    <div class="menubtn">
+                        <button>Order</button>
+                    </div>
+                    
+                </div>
+        </section>
+        
+        <section class="quality4" id="aboutus">
+            <h1>Choose Easy—-or Easier</h1>
+            <p>Meal Kits for when you want to get hands-on, Pre-Made Meals when you don’t. Choose one style or mix and match.</p>
+            
+            <div class="qual">
+                <div class="qimcont">
+                    <img src="imgs/767048.jpg" alt="">
+                    <h1>Meal Kits</h1>
+                    <p><i class="material-icons">check</i>Ready in 15-40 minutes</i></p>
+                    <p><i class="material-icons">check</i>Pre-measured ingredients arrive ready to cook</p>
+                    <p><i class="material-icons">check</i> Learn new skills while easily creating impressive meals</p>
+                </div>
+                <div class="qimcont">
+                    <img src="imgs/burg.jpeg" alt="">
+                    <h1>Fresh & Ready</h1>
+                    <p><i class="material-icons">check</i>Premade and ready in as little as 4 minutes</p>
+                    <p><i class="material-icons">check</i> Arrives in a heat-safe tray, for microwave or oven</p>
+                    <p><i class="material-icons">check</i>Compostable tray means zero mess, zero cleanup</p>
+                </div>
+            </div>
+            <div class="qual2">
+                <div class="q2cont">
+                    <h1>Meal Delivery for Any Diet</h1>
+                    <p>Choose a home meal delivery plan for your taste, or mix and match any of our weekly recipes</p>
+                    <button>Find Your Meal Plan</button>
+                </div>
+                <div class="q2ps">
+                    <div class="q2i">
+                        <ul>
+                            <li> <i class="material-icons" id="chev">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev1">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev2">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev3">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev4">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev5">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev6">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev7">chevron_right</i></li>
+                            <li> <i class="material-icons" id="chev8">chevron_right</i></li>
+    
+                        </ul>
+                        
+                    </div>
+                    <div class="q2hs">
+                        <ul>
+                            <li id="myfoods" onmouseover="changecol()" onmouseout="nocolor()">Paleo</li>
+                            <li id="myfoods1" onmouseover="changecol1()" onmouseout="nocolor1()">Vegetarian</li>
+                            <li id="myfoods2" onmouseover="changecol2()" onmouseout="nocolor2()">Gluten-Free</li>
+                            <li id="myfoods3" onmouseover="changecol3()" onmouseout="nocolor3()">Carb-Conscious</li>
+                            <li id="myfoods4" onmouseover="changecol4()" onmouseout="nocolor4()">Keto-Friendly</li>
+                            <li id="myfoods5" onmouseover="changecol5()" onmouseout="nocolor5()">Mediterranean</li>
+                            <li id="myfoods6" onmouseover="changecol6()" onmouseout="nocolor6()">Diabetes-Friendly</li>
+                            <li id="myfoods7" onmouseover="changecol7()" onmouseout="nocolor7()">Pescatarian</li>
+                            <li id="myfoods8" onmouseover="changecol8()" onmouseout="nocolor8()">Fresh & Ready</li>
+                        </ul>
+                        
+                    </div>
+                   
+                </div>
+                <div class="q2ils">
+                    <img src="imgs/indian-traditional.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="quality5">
+            <div class="qualicont">
+                <h1>Let's do lunch</h1>
+                <h1>and breakfast. </h1>
+                <p>heck, snacks too. add market items to your basket for feel-good deliciousness, any time of day.</p>
+                <button>Check it out</button>
+            </div>
+        </section>
+        <section class="quality3">
+            <h2>A gift in your first box</h2>
+            <div class="gifts">
+
+                <div class="gift1">
+                    <img src="imgs/gift1.webp" alt="">
+                </div>
+                <div class="gift1">
+                    <img src="imgs/sweetgift.jpeg" alt="">
+                </div>
+                <div class="gift2">
+                    <img src="imgs/caakegift.jpg" alt="">
+                </div>
+                <div class="gift2">
+                    <img src="imgs/cupcake.jpeg" alt="">
+                </div>
+                
+            </div>
+            <div class="giftcont">
+                <p>order today and you will receive a free gift!</p>
+                <button>claim</button>
+            </div>
+        
+        </section>
+        <section class="feedbacks">
+            <div class="cust">
+                <h1>Customers @ Flavorsome</h1>
+                <hr>    
+            </div>
+            <div class="mycustfeeds">
+                <div class="myfeeds">
+                    <p>This is night 3 of making your meals and we are literally floored. Everything has been so fresh and flavorful and the directions are set out perfect. My girlfriend, who has done multiple pre-prepped food deliveries, said this by far is her favorite.
+
+                        <br>
+                        <br>~Matt - Chicago, TX</p>
+
+                </div>
+               
+                <div class="myfeeds">
+                    <p>Thank you SO MUCH for your delicious healthy meals. I am losing weight, I feel good and during this pandemic I am thrilled to receive nutritious meals. I don't have to worry about shopping and I have learned to cook better by following your recipes.
+
+                        <br>
+                        <br>~Corinn - Monrovia, CA</p>
+
+                </div>
+                
+                <div class="myfeeds">
+                    <p>Our family is so happy looking forward to cooking and eating together every night. Sunbasket has been a complete life saver and joy maker for us!
+
+                        <br>
+                        <br>~Teresa - Lake Worth, FL</p>
+
+                </div>
+               
+            </div>
+
+        </section>
+        <section class="quality6">
+            <div class="contactus" id="contact">
+                <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio aperiam nostrum placeat iure. Harum molestias labore libero placeat fuga doloribus officiis laboriosam odio sint sit illo maxime in magni ullam quam animi, dolores nesciunt, quas, repellat nulla expedita quia.</p>
+            </div>
+            
+            <div class="contactmaj">
+                <div class="contcontents2">
+                    <h3>send message</h3>
+                    <input type="text" placeholder="Full Name">
+                    <br>
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <input type="" placeholder="Message">
+                    <br>
+                    <div class="msgtous">
+                        <button type="submit">Send</button>
+
+                    </div>
+
+    
+                </div>
+                <div class="contcontents">
+                    <div class="conticon">
+                        <div class="cicon">
+                            <i class="material-icons">house</i>
+                        </div>
+                        <div class="cion2">
+                            <h2>Address</h2>
+                            <h3>4671 Sugar camp road,</h3>
+                            <h3>owatanna,minnesota,</h3>
+                            <h3>55060</h3>
+                        </div>
+                    </div>
+
+                    <div class="conticon">
+                        <div class="cicon">
+                            <i class="material-icons">call</i>
+                        </div>
+                        <div class="cion2">
+                            <h2>phone</h2>
+                            <h3>571-457-2321</h3>
+                        </div>
+                    </div>
+
+                    <div class="conticon">
+                        <div class="cicon">
+                            <i class="material-icons">mail</i>
+                        </div>
+                        <div class="cion2">
+                            <h2>Gmail</h2>
+                            <h3 style="text-transform: none;">flavorsome@gmail.com</h3>
+                        </div>
+                    </div>
+                </div>
+      
+
+            </div>
+
+        </section>
+        
+       
+    </div>
+     
+    <script src="index.js"></script>
+</body>
+</html>
+<!--  
+<div class="giftcont">
+        <h2>A gift in your first box</h2>
+        <p>order today and you will receive a free gift!</p>
+        <button>claim</button>
+</div>
+<section class="quality5">
+    <div class="qualicont">
+        <h1>Let's do lunch</h1>
+        <h1>and breakfast. </h1>
+        <p>heck, snacks too. add market items to your basket for feel-good deliciousness, any time of day.</p>
+        <button>Check it out</button>
+    </div>
+</section>
+<section class="feedbacks">
+            <div class="cust">
+                <h1>Customers ❤️ Flavorsome</h1>
+                <hr>    
+            </div>
+            <div class="mycustfeeds">
+                <p>This is night 3 of making your meals and we are literally floored. Everything has been so fresh and flavorful and the directions are set out perfect. My girlfriend, who has done multiple pre-prepped food deliveries, said this by far is her favorite.
+
+                    Matt - Chicago, TX</p>
+                <p>Thank you SO MUCH for your delicious healthy meals. I am losing weight, I feel good and during this pandemic I am thrilled to receive nutritious meals. I don't have to worry about shopping and I have learned to cook better by following your recipes.
+
+                    Corinn - Monrovia, CA</p>
+                <p>Our family is so happy looking forward to cooking and eating together every night. Sunbasket has been a complete life saver and joy maker for us!
+
+                    Teresa - Lake Worth, FL</p>
+            </div>
+
+        </section>
